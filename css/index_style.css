@@ -1,0 +1,127 @@
+body
+{
+    font-family: 'segoe ui light';
+    color: white
+}
+.site
+{
+    box-sizing: border-box
+}
+#alertContainer
+{
+    display: none;
+}
+
+#myNav
+{
+    width: 100%;
+    padding: 30px;
+    transition: all 0.8s;
+    z-index: 99999999;
+}
+.navbar
+{
+    background: rgb(0,176,255);
+    background: radial-gradient(circle, rgba(0,176,255,1) 0%, rgba(0,109,140,1) 100%);
+}
+header
+{
+
+    background-color: #1d1f21;
+    color: white;
+    text-align: center;
+}
+.web-home
+{
+    background-color: #1d1f21;
+}
+.web-home 
+{
+    font-size: 24px;
+}
+.web-home  .date
+{
+    font-size: 24px;
+    font-family: sans-serif;
+    color:#27bbbf;
+}
+.web-home .date:hover
+{
+    cursor: pointer;
+    color: white;
+    transition: 0.8s;
+}
+
+.web-home .bottom .fa-chevron-circle-left:hover
+{
+    color: #27bbbf;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.home
+{
+    position: relative;
+}
+.home .dark
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:  rgba(31, 31, 31, 0.55);
+    width: 100%;
+    z-index: 1;
+}
+.home .carousel-item
+{
+    position: relative;
+}
+.home .carousel-caption
+{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    z-index: 2;
+}
+.home .carousel-caption h1
+{
+    font-size: 55;
+    font-weight: 700;
+}
+.home .carousel-caption h3
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.home .carousel-caption button
+{
+    font-size: 18;
+
+}
+.lessons
+{
+    background-color: #dddddd;
+}
+.developers
+{
+    background-color: #1d1f21
+}
+.websites
+{
+    background-color: #dddddd;
+    color: black;
+}
+.footer
+{
+    background-color: #1d1f21;
+    padding: 5 0;
+    color: white;
+    font-size: 15;
+}
+.footer .soc
+{
+    font-size: 22;
+    margin : 5 8;
+}
